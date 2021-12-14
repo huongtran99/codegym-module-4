@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c7ee50d1-911e-4474-9bc6-54f0b70ca0d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/phone-management/src/main/java/com/codegym/configuration/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phone-management/src/main/java/com/codegym/configuration/security/SecurityInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone-management/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/phone-management/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone-management/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/phone-management/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone-management/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/phone-management/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone-management/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/phone-management/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone-management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/phone-management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone-management/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/phone-management/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone-management/build/classes/java/main/com/codegym/configuration/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/phone-management/build/classes/java/main/com/codegym/configuration/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone-management/build/classes/java/main/com/codegym/configuration/AppInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/phone-management/build/classes/java/main/com/codegym/configuration/AppInit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone-management/build/classes/java/main/com/codegym/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/phone-management/build/classes/java/main/com/codegym/controller/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone-management/build/classes/java/main/com/codegym/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/phone-management/build/classes/java/main/com/codegym/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone-management/build/classes/java/main/com/codegym/controller/SmartphoneController.class" beforeDir="false" afterPath="$PROJECT_DIR$/phone-management/build/classes/java/main/com/codegym/controller/SmartphoneController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone-management/build/libs/phone-management-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/phone-management/build/libs/phone-management-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone-management/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/phone-management/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone-management/src/main/java/com/codegym/configuration/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/phone-management/src/main/java/com/codegym/configuration/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone-management/src/main/java/com/codegym/configuration/AppInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/phone-management/src/main/java/com/codegym/configuration/AppInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone-management/src/main/java/com/codegym/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/phone-management/src/main/java/com/codegym/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone-management/src/main/java/com/codegym/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/phone-management/src/main/java/com/codegym/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone-management/src/main/java/com/codegym/controller/SmartphoneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/phone-management/src/main/java/com/codegym/controller/SmartphoneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone-management/src/main/webapp/WEB-INF/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/phone-management/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone-management/src/main/webapp/WEB-INF/views/phones/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/phone-management/src/main/webapp/WEB-INF/views/phones/list.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/phone-management" />
+  </component>
+  <component name="ProjectId" id="20fhKqhIRActTJWtOmxjKnjDF1Q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7ee50d1-911e-4474-9bc6-54f0b70ca0d5" name="Default Changelist" comment="" />
+      <created>1636441490117</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636441490117</updated>
+      <workItem from="1636441491608" duration="34000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

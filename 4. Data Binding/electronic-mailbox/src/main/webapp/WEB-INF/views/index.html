@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>HiHi</title>
+</head>
+<body>
+<h3>Box Management</h3>
+<p>
+    <a th:href="@{/box/create}">
+        Add new box
+    </a>
+</p>
+<table>
+    <thead>
+    <tr>
+        <th>Languages</th>
+        <th>Page-Size</th>
+        <th>Spams Filter</th>
+        <th>Signature</th>
+        <th>Edit</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="box : ${boxes}">
+        <td th:text="${box.languages}"></td>
+        <td th:text="${box.pageSize}"></td>
+        <td th:text="${box.spamsFilter}"></td>
+        <td th:text="${box.signature}"></td>
+        <td><a th:href="@{/box/{id}/update(id=${box.id})}">edit</a></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

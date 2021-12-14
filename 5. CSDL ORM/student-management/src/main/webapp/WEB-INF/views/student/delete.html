@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<h3>Remove Student</h3>
+<p>
+    <a th:href="@{/student}">
+        Back to student list
+    </a>
+</p>
+<div id="form">
+    <form action="#" th:action="@{/student/delete}" th:object="${s}"
+          method="POST" novalidate="novalidate">
+        <input type="hidden" th:field="*{id}"/>
+        <div>
+            <label>Name</label>
+            <input type="text" th:field="*{name}"/>
+        </div>
+        <div>
+            <label>Address</label>
+            <input type="email" th:field="*{address}"/>
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="text" th:field="*{email}"/>
+        </div>
+        <div>
+            <label>Image</label>
+            <img width="150" height="150" th:src="@{'/img/' + ${student.image}}">
+        </div>
+        <input type="submit" value="Remove"/>
+    </form>
+</div>
+</body>
+</html>

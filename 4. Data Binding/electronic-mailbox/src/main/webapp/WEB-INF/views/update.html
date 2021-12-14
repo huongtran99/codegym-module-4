@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit</title>
+</head>
+<body>
+<h1>Settings</h1>
+<form action="#" th:action="@{/box/update}" th:object="${box}" method="post" novalidate="novalidate">
+    <input type="hidden" th:field="*{id}"/>
+    <h5>Languages</h5>
+    <label>
+        <select style="width: 250px" th:field="*{languages}">
+            <option th:text="${box.languages}"></option>
+            <option>Vietnamese</option>
+            <option>Japanese</option>
+            <option>Chinese</option>
+        </select>
+    </label>
+    <h5>Page Size
+        <label>
+            <select th:field="*{pageSize}">
+                <option></option>
+                <option>10</option>
+                <option>15</option>
+                <option>25</option>
+                <option>50</option>
+                <option>100</option>
+            </select>
+        </label>
+    </h5>
+    <h5>Spams Filter
+        <input type="checkbox" th:field="*{spamsFilter}" value="true"> Enable
+    </h5>
+    <h5>
+        signature
+    </h5>
+    <label>
+        <input type="text" th:field="*{signature}" style="width: 550px">
+    </label>
+    <input type="submit" value="update">
+</form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Xin Chao</title>
+</head>
+<body>
+<a th:href="@{/student/create}">Create new student</a>
+<h1>List Student</h1>
+<form action="/student" method="get">
+    <input type="text" name="q" placeholder="search">
+    <button>Search</button>
+</form>
+<table>
+    <tr>
+        <td>#</td>
+        <td>Name</td>
+        <td>Email</td>
+        <td>Address</td>
+        <td>Image</td>
+        <td>Edit</td>
+        <td>Delete</td>
+    </tr>
+    <tr th:each="student : ${students}">
+        <td th:text="${student.id}"></td>
+        <td th:text="${student.name}"></td>
+        <td th:text="${student.email}"></td>
+        <td th:text="${student.address}"></td>
+        <td><img width="150" height="150" th:src="@{'/img/' + ${student.image}}"></td>
+        <td><a th:href="@{/student/{id}/edit(id=${student.getId()})}">edit</a></td>
+        <td><a th:href="@{/student/{id}/delete(id=${student.getId()})}">delete</a></td>
+    </tr>
+</table>
+</body>
+</html>
